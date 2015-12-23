@@ -1,0 +1,48 @@
+
+div#container
+            {
+                position: absolute;
+                width: 350px;
+                left: 50%;
+                top: 50%;
+                margin-left: -175px;
+                margin-top: -250px;
+                border: 1px solid #cccccc;
+                height: auto;
+                /*min-height: 360px;*/
+            }
+form
+{
+    padding-left: 20px;
+    padding-top: 30px;
+    line-height: 30px;
+    
+}
+label,input
+{
+    display: block;
+    height: 30px;
+    width: 90%;
+        
+}
+
+input[type="submit"]
+{
+    margin-top:20px;
+    
+        
+}
+.error
+{
+    color: red;
+}
+.mandatory
+{
+    font-weight: bold;
+    color: red;
+}
+.success
+{
+    color: green;
+    font-weight: bold;
+}
